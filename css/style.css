@@ -1,0 +1,67 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    max-width: 1440px;
+    background: url('../images/pattern-background-desktop.svg') no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.main-card {
+    background: url("../images/illustration-hero.svg") no-repeat;
+    max-width: 60%;
+    height: 600px;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    background-color: yellow;
+    flex-flow: column;
+}   
+
+/*# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+[OK]- Mobile: 375px
+[OK]- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+[OK] - Pale blue: hsl(225, 100%, 94%) 
+[X] - Bright blue: hsl(245, 75%, 52%) 
+
+### Neutral
+
+[X]- Very pale blue: hsl(225, 100%, 98%)
+[X]- Desaturated blue: hsl(224, 23%, 55%)
+[X]- Dark blue: hsl(223, 47%, 23%)
+
+## Typography
+
+### Body Copy
+
+[X]- Font size (paragraph): 16px
+
+### Font
+
+[X]- Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
+- Weights: 500, 700, 900
