@@ -13,12 +13,12 @@ body {
     height: 100vh;
 }
 
-.main-card {
-    display: flex;
+.container {
     max-width: 30%;
-    height: 550px;
+    height: 600px;
     align-items: center;
     align-content: center;
+    justify-content: center;
     flex-direction: column;
     margin: 90px auto;
     border-radius: 20px;
@@ -28,6 +28,14 @@ body {
     
 }   
 
+.card {
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
 .hero {
     max-width: 100%;
     border-top-left-radius: 20px;
@@ -35,23 +43,39 @@ body {
 }
 
 .title {
-    padding-top: 40px;
+    padding: 20px;
 }
 
 .text {
-    padding-top: 20px;
+    padding: 20px;
 }
 
 .squarePlan {
-    padding-top: 30px;
-}
-
-.squarePlan {
+    padding: 30px;
+    /*flex-direction: column;*/
     display: flex;
+    flex-direction: row;
     align-items: center;
-    align-content: center;
-    justify-content: center;
+    background: tomato;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+
 }
+
+.btn {
+    border: none;
+    background: blue;
+    padding: 10px 80px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.cancel {
+    padding-top: 20px;
+    background-color: turquoise;
+}
+
 
 /*# Front-end Style Guide
 
