@@ -4,8 +4,6 @@
     list-style: none;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
-
 body {
     font-family: 'Red Hat Display', sans-serif;
     background: url('../images/pattern-background-desktop.svg') no-repeat;
@@ -15,14 +13,14 @@ body {
 
 .container {
     max-width: 30%;
-    height: 600px;
+    height: 610px;
     align-items: center;
     align-content: center;
     justify-content: center;
     flex-direction: column;
     margin: 90px auto;
     border-radius: 20px;
-    background-color: yellow;
+    background-color: hsl(225, 100%, 98%);
     box-sizing: border-box;
     flex-wrap: wrap;
     
@@ -40,40 +38,48 @@ body {
     max-width: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    padding-bottom: 20px;
 }
 
 .title {
     padding: 20px;
+    font-weight: bold;
 }
 
 .text {
-    padding: 20px;
+    padding-bottom: 10px;
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
 }
 
 .squarePlan {
-    padding: 30px;
-    /*flex-direction: column;*/
+    padding: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    background: tomato;
+    background: hsl(225, 100%, 94%);
     border-radius: 10px;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin: 18px 45px 30px;
 
 }
 
 .btn {
     border: none;
-    background: blue;
-    padding: 10px 80px;
+    background: hsl(245, 75%, 52%);
     border-radius: 10px;
     color: #fff;
+    margin: auto 45px;
+    width: 315px;
+    height: 45px;
 }
 
 .cancel {
+    color: hsl(224, 23%, 55%);
+    font-weight: bold;
     padding-top: 20px;
-    background-color: turquoise;
+    background-color: hsl(223, 47%, 23%);
+    justify-content: center;
+    margin: 18px 150px 34px;
 }
 
 
@@ -91,21 +97,21 @@ The designs were created to the following widths:
 ### Primary
 
 [OK] - Pale blue: hsl(225, 100%, 94%) 
-[X] - Bright blue: hsl(245, 75%, 52%) 
+[OK] - Bright blue: hsl(245, 75%, 52%) 
 
 ### Neutral
 
-[X]- Very pale blue: hsl(225, 100%, 98%)
-[X]- Desaturated blue: hsl(224, 23%, 55%)
+[OK]- Very pale blue: hsl(225, 100%, 98%)
+[OK]- Desaturated blue: hsl(224, 23%, 55%)
 [X]- Dark blue: hsl(223, 47%, 23%)
 
 ## Typography
 
 ### Body Copy
 
-[X]- Font size (paragraph): 16px
+[OK]- Font size (paragraph): 16px
 
 ### Font
 
-[X]- Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
+[OK]- Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
 - Weights: 500, 700, 900
