@@ -65,20 +65,26 @@ body {
     background: hsl(225, 100%, 96%);
     border-radius: 10px;
     margin: 18px 45px 30px;
-
 }
 
 .icon-msc {
     margin-right: 20px;
+    background-color: blue;
 }
 
 .plan {
     font-size: 16px;
     color: hsl(223, 47%, 23%);
+    background-color: yellow;
 }
 
 .price {
     color:hsl(224, 23%, 55%);
+    background-color: red;
+}
+
+.change {
+    background-color: pink;
 }
 
 .btn {
