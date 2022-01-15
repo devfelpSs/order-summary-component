@@ -12,8 +12,8 @@ body {
 }
 
 .container {
-    max-width: 30%;
-    height: 610px;
+    max-width: 420px;
+    height: 665px;
     align-items: center;
     align-content: center;
     justify-content: center;
@@ -44,42 +44,61 @@ body {
 .title {
     padding: 20px;
     font-weight: bold;
+    color: hsl(223, 47%, 23%);
 }
 
 .text {
     padding-bottom: 10px;
     color: hsl(224, 23%, 55%);
     font-size: 16px;
+    text-align: center;
 }
 
 .squarePlan {
     padding: 20px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
-    background: hsl(225, 100%, 94%);
+    align-content: center;
+    justify-content: space-around;
+    background: hsl(225, 100%, 96%);
     border-radius: 10px;
     margin: 18px 45px 30px;
 
 }
 
+.icon-msc {
+    margin-right: 20px;
+}
+
+.plan {
+    font-size: 16px;
+    color: hsl(223, 47%, 23%);
+}
+
+.price {
+    color:hsl(224, 23%, 55%);
+}
+
 .btn {
     border: none;
     background: hsl(245, 75%, 52%);
+    font-weight: 700;
     border-radius: 10px;
     color: #fff;
     margin: auto 45px;
-    width: 315px;
+    width: 330px;
     height: 45px;
+    box-shadow: 1px 14px 17px -2px hsl(257, 52%, 70%);
 }
 
 .cancel {
     color: hsl(224, 23%, 55%);
     font-weight: bold;
     padding-top: 20px;
-    background-color: hsl(223, 47%, 23%);
     justify-content: center;
-    margin: 18px 150px 34px;
+    margin: 11px 150px 34px;
 }
 
 
