@@ -1,0 +1,151 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background: url('../images/pattern-background-desktop.svg') no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    height: 100vh;
+}
+
+.container {
+    max-width: 420px;
+    height: 665px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 90px auto;
+    border-radius: 20px;
+    background-color: hsl(225, 100%, 98%);
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    
+}   
+
+.card {
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.hero {
+    max-width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-bottom: 20px;
+}
+
+.title {
+    padding: 20px;
+    font-weight: bold;
+    color: hsl(223, 47%, 23%);
+}
+
+.text {
+    padding-bottom: 10px;
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    text-align: center;
+}
+
+.squarePlan {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    background: hsl(225, 100%, 96%);
+    border-radius: 10px;
+    margin: 18px 30px 30px;
+}
+
+.list {
+    display: inline-block;
+    padding-right: 55px;
+}
+
+.change {
+    text-align: right;
+    padding-top: 15px;
+    float: right;
+    color: hsl(245, 75%, 52%);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.icon-msc {
+    margin-right: 20px;
+}
+
+.plan {
+    font-size: 16px;
+    color: hsl(223, 47%, 23%);
+    font-weight: bold;
+}
+
+.price {
+    color:hsl(224, 23%, 55%);
+    padding-top: 7px;
+}
+
+.btn {
+    border: none;
+    background: hsl(245, 75%, 52%);
+    font-weight: 700;
+    border-radius: 10px;
+    color: #fff;
+    margin: auto 30px;
+    width: 360px;
+    height: 45px;
+    box-shadow: 1px 14px 17px -2px hsl(257, 39%, 69%);
+}
+
+.cancel {
+    color: hsl(224, 23%, 55%);
+    font-weight: bold;
+    padding-top: 20px;
+    justify-content: center;
+    margin: 11px 145px 34px;
+}
+
+
+/*# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+[OK]- Mobile: 375px
+[OK]- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+[OK] - Pale blue: hsl(225, 100%, 94%) 
+[OK] - Bright blue: hsl(245, 75%, 52%) 
+
+### Neutral
+
+[OK]- Very pale blue: hsl(225, 100%, 98%)
+[OK]- Desaturated blue: hsl(224, 23%, 55%)
+[X]- Dark blue: hsl(223, 47%, 23%)
+
+## Typography
+
+### Body Copy
+
+[OK]- Font size (paragraph): 16px
+
+### Font
+
+[OK]- Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
+- Weights: 500, 700, 900

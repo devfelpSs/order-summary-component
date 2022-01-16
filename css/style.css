@@ -5,114 +5,154 @@
 }
 
 body {
-    font-family: 'Red Hat Display', sans-serif;
     background: url('../images/pattern-background-desktop.svg') no-repeat;
     background-color: hsl(225, 100%, 94%);
-    height: 100vh;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 .container {
-    max-width: 420px;
-    height: 665px;
-    align-items: center;
     align-content: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: 90px auto;
-    border-radius: 20px;
-    background-color: hsl(225, 100%, 98%);
+    align-items: center;
+    background-color: #fff;
     box-sizing: border-box;
+    border-radius: 2.5vh;
+    flex-direction: column;
     flex-wrap: wrap;
-    
+    height: 81vh;
+    justify-content: center;
+    margin: 8vh auto;
+    position: relative;
+    width: 53vh;
 }   
 
 .card {
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
     display: flex;
     max-width: 100%;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
 }
 
 .hero {
-    max-width: 100%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    padding-bottom: 20px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    width: 100%;
 }
 
 .title {
-    padding: 20px;
-    font-weight: bold;
     color: hsl(223, 47%, 23%);
+    font-size: 3.5vh;
+    font-weight: 900;
+    padding-top: 5vh;
 }
 
-.text {
-    padding-bottom: 10px;
+.description {
     color: hsl(224, 23%, 55%);
-    font-size: 16px;
+    font-size: 2vh;
+    font-weight: 500;
+    padding-top: 2vh;
     text-align: center;
 }
 
-.squarePlan {
-    padding: 20px;
+.info {
+    align-items: center;
+    align-content: center;
+    background: hsl(225, 100%, 96%);
+    border-radius: 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
-    align-content: center;
-    justify-content: space-around;
-    background: hsl(225, 100%, 96%);
-    border-radius: 10px;
-    margin: 18px 45px 30px;
+    height: 9.5vh;
+    justify-content: space-between;
+    margin: 1.5vh 1.3vh 3.5vh 4vh;
+    padding: 1.5vh;
+    width: 42vh;
+}
+
+.icon-msc {
+    margin-left: 1.5vh;
 }
 
 .list {
     display: inline-block;
-    padding-right: 65px;
-}
-
-.change {
-    text-align: right;
-    padding-top: 15px;
-    float: right;
-}
-
-.icon-msc {
-    margin-right: 20px;
+    font-size: 2.2vh;
+    padding-right: 10vh;
 }
 
 .plan {
-    font-size: 16px;
     color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.change {
+    color: hsl(245, 75%, 52%);
+    float: right;
     font-weight: bold;
+    font-size: 2vh;
+    margin-right: 1.2vh;
+    padding-top: 2vh;
+    text-align: right;
+    text-decoration: underline;
+}
+
+.change:hover {
+    color: hsl(245, 72%, 67%);
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s;
 }
 
 .price {
     color:hsl(224, 23%, 55%);
-    padding-top: 7px;
+    padding-top: 0.3rem;
 }
 
 .btn {
     border: none;
     background: hsl(245, 75%, 52%);
-    font-weight: 700;
+    box-shadow: 1px 14px 17px -2px hsl(257, 39%, 69%);
     border-radius: 10px;
     color: #fff;
-    margin: auto 45px;
-    width: 330px;
-    height: 45px;
-    box-shadow: 1px 14px 17px -2px hsl(257, 52%, 70%);
+    font-weight: 900;
+    font-size: 1.8vh;
+    height: 7.5vh;
+    margin: auto 4.2vh;
+    width: 45vh;
+}
+
+.btn:hover {
+    background: hsl(245, 72%, 67%);
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 .cancel {
     color: hsl(224, 23%, 55%);
-    font-weight: bold;
-    padding-top: 20px;
+    font-weight: 900;
+    font-size: 1.9vh;
     justify-content: center;
-    margin: 11px 150px 34px;
+    padding-top: 3.5vh;
+    text-align: center;
 }
 
+.cancel:hover {
+    color: hsl(223, 47%, 23%);
+    cursor:pointer;
+    transition: 0.3s;
+}
+
+.attribution {
+    text-align: center;
+    font-size: 2vh;
+}
+
+
+a:hover {
+    text-decoration: none;
+    color: hsl(245, 75%, 52%);
+    font-size: 2.2vh;
+    transition: 0.3s;
+}
 
 /*# Front-end Style Guide
 
@@ -134,7 +174,7 @@ The designs were created to the following widths:
 
 [OK]- Very pale blue: hsl(225, 100%, 98%)
 [OK]- Desaturated blue: hsl(224, 23%, 55%)
-[X]- Dark blue: hsl(223, 47%, 23%)
+[OK]- Dark blue: hsl(223, 47%, 23%)
 
 ## Typography
 
