@@ -1,6 +1,6 @@
 # Frontend Mentor - Order summary card
 
-[Check here](https://devfelpss.github.io/order-summary-component/) :point_left: to see my solution for this challenge
+[Click here](https://devfelpss.github.io/order-summary-component/) :point_left: to see my solution for this challenge
 
 ![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
 
